@@ -26,6 +26,12 @@
     margin-right: 25px;
     justify-content: flex-end;
 }
+.langue{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    justify-content: flex-end;
+}
 
 .langue nav ul{
     display: flex;
@@ -35,7 +41,7 @@
 
 }
 .nav input{
-    width: 25%;
+    width: 40%;
     height: 30px;
     margin-top: 20px;
     border-radius: 20px;
@@ -45,7 +51,7 @@
 
 .burger{
     margin-top: 10px;
-    width: 8%;
+    width: 10%;
     height: 40%;
     
 }
