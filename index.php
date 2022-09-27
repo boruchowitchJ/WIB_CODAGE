@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php include '../WIB_CODAGE/views/login.html'; ?> 
 <?php include '../WIB_CODAGE/views/header.html'; ?> 
 <?php include '../WIB_CODAGE/views/carte.html';?>    
     
