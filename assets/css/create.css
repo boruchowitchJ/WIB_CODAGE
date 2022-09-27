@@ -41,7 +41,7 @@ flex-direction: column;
     position: relative;
     width: 50%;
     min-height: 100vh;
-  background-image: url(/assets/images/form_img.jpg) ;
+  background-image: url(/assets/images/illu/logInFaces.png) ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
