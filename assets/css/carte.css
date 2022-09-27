@@ -8,9 +8,9 @@
 
 }
 .carte{  
-    width: 800px; 
-    height: 800px;
-    margin-top: 20px;
+    width: 900px; 
+    height: 900px;
+    margin-top: -135px;
     float: left;
     object-fit: cover;  
     

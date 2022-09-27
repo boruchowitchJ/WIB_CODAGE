@@ -5,13 +5,14 @@
     height:150px;
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
+    margin-top: 40px;
     justify-content: space-evenly;
 
 }
 .logo{
-    width: 20%;
+    width: 25%;
     height: auto;
+    margin-top: 25px;
     margin-left: 35px;
     
 }
@@ -25,6 +26,14 @@
     flex-direction: row;
     margin-right: 25px;
     justify-content: flex-end;
+    
+}
+.langue{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    justify-content: flex-end;
+    
 }
 .langue{
     display: flex;
@@ -37,7 +46,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: 20px;
+  
 
 }
 .nav input{
