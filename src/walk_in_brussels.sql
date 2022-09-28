@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Sep 28, 2022 at 11:22 AM
+-- Generation Time: Sep 28, 2022 at 11:35 AM
 -- Server version: 5.7.24
 -- PHP Version: 8.0.1
 
@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `visitor`
+-- Table structure for table `user`
 --
 
-CREATE TABLE `visitor` (
+CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `name` varchar(20) NOT NULL,
   `mail` varchar(50) NOT NULL,
@@ -40,9 +40,9 @@ CREATE TABLE `visitor` (
 --
 
 --
--- Indexes for table `visitor`
+-- Indexes for table `user`
 --
-ALTER TABLE `visitor`
+ALTER TABLE `user`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -50,9 +50,9 @@ ALTER TABLE `visitor`
 --
 
 --
--- AUTO_INCREMENT for table `visitor`
+-- AUTO_INCREMENT for table `user`
 --
-ALTER TABLE `visitor`
+ALTER TABLE `user`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
