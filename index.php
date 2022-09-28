@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
-<?php include '../WIB_CODAGE/views/create.html'; ?> 
-<?php include '../WIB_CODAGE/views/log_in.html'; ?> 
+     
+<?php include '../WIB_CODAGE/views/create.html'; ?>
 
 
  <!-- <?php include '../WIB_CODAGE/views/header.html'; ?> 
