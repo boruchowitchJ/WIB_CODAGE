@@ -25,7 +25,7 @@ if(isset($_POST['username'], $_POST['password'])){
 
     $sqlQuery = "
         SELECT *
-        FROM members
+        FROM
         WHERE username = :param_username AND :param_password
 
     ";
