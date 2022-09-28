@@ -13,22 +13,22 @@
 
 @font-face {
     font-family: "RobotoRegular";
-    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: "RobotoThin";
-    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+    src: url(./fonts/Roboto/Roboto-Thin.ttf);
 }
 
 @font-face {
     font-family: "RobotoMedium";
-    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
 @font-face {
     font-family: "RobotoBold";
-    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
 }
 
 /*********Section entrance***********/
@@ -45,7 +45,7 @@ body{
     position: relative;
     width: 50%;
     min-height: 100vh;
-    background-image: url(/assets/images/logInFaces.png) ;
+    background-image: url(../images/illu/logInFaces.png) ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ h2{
     padding: 20px 20px;
     display: inline-block;
     cursor: pointer;
-    background-image: url(/assets/images/arrow.png);
+    background-image: url(./assets/images/arrow.png);
     background-position: 15px 5px;
     background-repeat: no-repeat;
     background-size: 40px;
