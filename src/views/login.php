@@ -1,6 +1,6 @@
     <section class="entrance">
         <div class="logo">
-            <img class="img_logo" src=".\assets\images\illu\Logo-final-retouche.png">
+            <img class="img_logo" src="">
         </div>
 
         <!-- ****** Création du formulaire **** -->
@@ -16,14 +16,13 @@
 
                     <div class="inputGroup">
                         <input class="inputbox" type="text" name="username" id="user" placeholder="Name">
-
                     </div>
 
 
-                    <div>
+                    <div class="inputGroup">
                         <input class="inputbox" type="password" name="password" id="pswd" placeholder="password">
-                        <h4>forgot your password ?</h4>
                     </div>
+                    <h4>forgot your password ?</h4>
 
                     <!------- Bouton-------->
                     <div class="sign_in">

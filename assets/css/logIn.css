@@ -90,6 +90,7 @@ body{
     background-color: var(--lightgrey);
     border-radius: 30px;
     box-shadow:  5px 5px 7px #7B79797A;
+    display: flex;
 }
 
 form{
@@ -100,11 +101,20 @@ form{
     align-items: center;
 }
 
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .formulaire_text{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+
 
 h1{
     color: var(--grey);
