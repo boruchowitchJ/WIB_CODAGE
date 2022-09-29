@@ -131,32 +131,12 @@ p{
 
 input[type=text]{
     padding-left: 40px;
-    position: relative;
+
 }
 
 input[type=password]{
     padding-left: 40px;
-    position: relative;
 }
-
-.user{
-    position: relative;
-    bottom: 35px;
-    left: 20px;
-    color:var(--grey);
-    display: flex;
-    justify-content:left;
-}
-
-.lock{
-    position: relative;
-    bottom: 60px;
-    left: 20px;
-    color:var(--grey);
-    display: flex;
-    justify-content:left;
-}
-
 
 h4{
     padding-top: 10px;
@@ -190,7 +170,7 @@ h2{
     padding: 20px 20px;
     display: inline-block;
     cursor: pointer;
-    background-image: url(./assets/images/arrow.png);
+    background-image: url(../images/illu/arrow.png);
     background-position: 15px 5px;
     background-repeat: no-repeat;
     background-size: 40px;
