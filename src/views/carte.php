@@ -3,3 +3,6 @@
     <img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto">
     <img src="./assets/images/illu/basilique-01.png" class="picto_Basi" alt="Picto">
 </div>
+
+
+<a href="?page=carte&poi=atomium">La carte SOUMAYA</a>

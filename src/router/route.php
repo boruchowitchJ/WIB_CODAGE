@@ -16,6 +16,11 @@ if (isset($_GET["page"]))
     {
         include "./src/controller/header.php";
         include "./src/controller/carte.php";
+
+        if(isset($get["poi"]))
+        {
+            include "./src/controller/carteSlide.php";
+        }
     }
     else if($get["page"] == "contact")
     {
