@@ -1,7 +1,6 @@
 <?php
 session_start();
-include './src/db/Connect_db-walk_in_Brussels.php';
-
+include './src/db/db.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +14,7 @@ include './src/db/Connect_db-walk_in_Brussels.php';
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/logIn.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/carte.css">
+    <link rel="stylesheet" href="./assets/css/carte.css">
     <link rel="stylesheet" href="./assets/css/create.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,7 +26,7 @@ include './src/db/Connect_db-walk_in_Brussels.php';
 <body>
     <?php include './src/router/route.php'; ?>
 
-    <script src="../assets/scripts/create.js"></script>
+    <script src="./assets/scripts/create.js"></script>
 </body>
 
 </html>

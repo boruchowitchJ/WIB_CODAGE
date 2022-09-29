@@ -10,6 +10,7 @@ try {
     $mysqlClient->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(Exception $exception) {
+    ?><h1>Oops, il y a eu problème avec la base de données system</h1><?php
     die('Oops, il y a eu problème : '.$exception->getMessage());
 }
 ?>

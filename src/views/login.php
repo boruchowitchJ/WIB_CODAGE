@@ -36,7 +36,7 @@
                         <input class="btn_log" type="submit" value="">
                     </div>
                     <div class="create">
-                        <p>Don't have an account ?<a href="./create.html">Create</a></p>
+                        <p>Don't have an account ?<a href="?page=createAccount">Create</a></p>
                     </div>
                 </form>
             </div>

@@ -1,17 +1,27 @@
 <?php
 
+/*est-ce-que dans l'url ->tu as a un moment quand tu page ici (donc à chaque fois que la page est chargée...)
+ ?page=quelquechose */
 
 
-if (isset($_GET["page"])) {
+if (isset($_GET["page"]))
+{
     $get = $_GET;
 
-    if ($get["page"] == "login") {
-        include "./src/controller/LogIn.php";
-    } else if ($get["page"] == "createAccount") {
+    if ($get["page"] == "createAccount")
+    {
         include "./src/controller/create.php";
-    } else if ($get["page"] == "carte") {
+    }
+    else if ($get["page"] == "carte")
+    {
         include "./src/controller/carte.php";
     }
-} else {
-    include "./src/controller/homePage.php";
+    else if($get["page"] == "contact")
+    {
+        include "./src/controller/contact.php";
+    }
+}
+else
+{
+    include "./src/controller/LogIn.php";
 }
