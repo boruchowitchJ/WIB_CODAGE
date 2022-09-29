@@ -1,4 +1,4 @@
-<section class="main">
+<section class="container"><section class="main">
     <div class="logo">
 
         <img class="img_logo" src="./assets/images/illu/Logo.png">
@@ -39,6 +39,6 @@
 
 </section>
 <section class="image">
-
+</section>
 
 </section>

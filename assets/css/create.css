@@ -18,7 +18,7 @@
     box-sizing: border-box;
 }
 
-body{
+.container{
     background-color: var(--body);
     margin: 0;
     padding: 0;
