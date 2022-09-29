@@ -8,7 +8,7 @@
         <div class="formulaire_container">
             <div class="formulaire">
 
-                <form method="post" action="">
+                <form method="post" action="../controller/LogIn.php">
                     <div class="formulaire_text">
                         <h1>welcome</h1>
                         <p>Sign in to your account</p>

@@ -1,6 +1,3 @@
-<h1> <?= $title; ?></h1>
-
-
 <header class="container">
     <div>
         <img src="./assets/images/illu/Logo.png" class="logo" alt="logo">
