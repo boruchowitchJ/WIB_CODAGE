@@ -14,10 +14,12 @@ if (isset($_GET["page"]))
     }
     else if ($get["page"] == "carte")
     {
+        include "./src/controller/header.php";
         include "./src/controller/carte.php";
     }
     else if($get["page"] == "contact")
     {
+        include "./src/controller/header.php";
         include "./src/controller/contact.php";
     }
 }
