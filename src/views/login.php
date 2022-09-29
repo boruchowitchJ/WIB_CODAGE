@@ -16,18 +16,13 @@
 
                     <div class="inputGroup">
                         <input class="inputbox" type="text" name="username" id="user" placeholder="Name">
-                        <div class="user">
-                            <i class="fa-regular fa-user"></i>
-                        </div>
+                        
                     </div>
 
 
                     <div>
                         <input class="inputbox" type="password" name="password" id="pswd" placeholder="password">
-                        <h4>forgot your password ?</h4>
-                        <div class="lock">
-                            <i class="fa-solid fa-lock"></i>
-                        </div>
+                        <h4>forgot your password ?</h4>                       
                     </div>
 
                     <!------- Bouton-------->
