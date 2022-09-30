@@ -1,3 +1,5 @@
+    <section class="container">
+
     <section class="entrance">
         <div class="logo">
             <img class="img_logo" src="">
@@ -37,4 +39,6 @@
         </div>
     </section>
     <section class="illustration">
+    </section>
+
     </section>

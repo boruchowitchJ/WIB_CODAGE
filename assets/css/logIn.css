@@ -46,7 +46,7 @@
 
 /*********Section entrance***********/
 
-body{
+.container {
     background-color: var(--middlegrey);
     margin: 0;
     padding: 0;
