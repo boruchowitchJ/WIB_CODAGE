@@ -13,7 +13,7 @@
         <div class="formLogOut">
             <h1>CREATE ACCOUNT</h1>
 
-            <form method="post" action="#">
+            <form class="form_create" method="post" action="#">
 
 
                 <input class="inputboite" id="inputName" type="text" name="name" placeholder="Name">

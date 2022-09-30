@@ -1,12 +1,19 @@
 <header class="header">
-    <!-- <div>
-        <img src="./assets/images/illu/Logo.png" class="logo" alt="logo">
-    </div> -->
+<div class="logo_header">
+
+<img class="img_logo" src="./assets/images/illu/Logo.png">
+
+
+
+</div>
     <div class="nav">
 
         <div class="right">
-            <label for="recherche"></label>
-            <input id="recherche" type="search" placeholder="Search">
+            <div class="search">
+                <label for="recherche"></label>
+                 <input id="recherche" type="search" placeholder="Search">
+            </div>
+
             <div class="langue">
                 <nav>
                     <ul>
