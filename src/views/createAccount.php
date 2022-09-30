@@ -1,11 +1,11 @@
 <section class="container"><section class="main">
-    <!-- <div class="logo_create">
+    <div class="logo_create">
 
         <img class="img_logo" src="./assets/images/illu/Logo.png">
 
 
 
-    </div> -->
+    </div>
     <!-- ****** zone du formulaire**** -->
 
 

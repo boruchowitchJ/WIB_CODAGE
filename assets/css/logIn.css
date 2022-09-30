@@ -64,11 +64,21 @@
     background-repeat: no-repeat;
 }
 
-.logo img{
-    width: 20%;
+.logo_create{
+   
+    position: relative;
+    width: 24%;
+    height: 125px;
     padding: 20px;
-}
-
+    margin-left: 35px;
+        
+    }
+    
+    .img_logo{
+        width: 80%;
+    height: 90%;
+    }
+    
 .entrance{
     width: 50%;
     max-height: 100vh;
@@ -104,6 +114,14 @@ form{
     align-items: center;
 }
 
+.inputData{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: auto;
+    height: 232px;
+    margin-top: 27px;
+}
 .inputGroup{
     display: flex;
     justify-content: center;
@@ -142,14 +160,9 @@ p{
     outline: none;
 }
 
-input[type=text]{
-    padding-left: 40px;
 
-}
 
-input[type=password]{
-    padding-left: 40px;
-}
+
 
 h4{
     padding-top: 10px;
@@ -166,7 +179,7 @@ h4{
     flex-direction:row;
     justify-content: space-evenly;
     width: 190px;
-    margin-right: 40px;
+    margin-right: 97px;
 }
 
 h2{
@@ -194,7 +207,13 @@ h2{
     background-color: var(--orange);
 }
 
-.create p{
+.createAccount{
+    width: 261px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.createAccount p{
     font-family: "RobotoThin";
     color: var(--grey);
 }
