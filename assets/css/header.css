@@ -1,21 +1,32 @@
 *{box-sizing: border-box;}
-
-.container{
+:root{
+    
+    --body:#E9E9E9;
+    --titre:#707070;
+    --text1:#7B7979;
+    --text2:#FFA101;
+    --formulaire: #D1D1D1;
+    --bouton:#2F4F58;
+   
+    
+}
+.header{
     width: 100%;
     height:150px;
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     justify-content: space-evenly;
+    background-color: var(--body);
 
 }
-.logo{
+/* .logo{
     width: 25%;
     height: auto;
     margin-top: 25px;
     margin-left: 35px;
     
-}
+} */
 .nav{
     display: flex;
     flex-direction: row;

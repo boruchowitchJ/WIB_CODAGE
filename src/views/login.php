@@ -2,7 +2,7 @@
 
     <section class="entrance">
         <div class="logo">
-            <img class="img_logo" src="">
+            <img class="img_logo" src="/assets/images/illu/Logo.png">
         </div>
 
         <!-- ****** Création du formulaire **** -->

@@ -1,32 +1,50 @@
 *{box-sizing: border-box;}
-.container{
-    width: 900px;
-    height:900px;    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-
-
+:root{
+    
+    --body:#E9E9E9;
+    --titre:#707070;
+    --text1:#7B7979;
+    --text2:#FFA101;
+    --formulaire: #D1D1D1;
+    --bouton:#2F4F58;
+   
+    
 }
-.container1{ 
-    width: 900px; 
-    height: 900px;
-    display: flex;
+body{
+    background-color: var(--body);
+}
+.container_carte{
+    width: 900px;
+    height:900px;
+    margin-top: -121px;
+    margin-left: 350px;
+    background-color: var(--body);   
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    margin-top: -200px;
+    flex-wrap: wrap; */
+
 
 }
 .carte{  
-    width: 900px; 
-    height: 900px;
-    margin-top: -200px;
+    width: 100%; 
+    height: 100%;
     object-fit: cover;  
     
 }
-.picto_Atom{
+
+/* .container_picto{ 
+    width: 900px; 
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -200px;
+
+} */
+
+/* .picto_Atom{
     width: 35px;
     height:35px;
    
@@ -34,4 +52,4 @@
 .picto_Basi{   
     width: 35px;
     height:35px;
-}
+} */

@@ -1,7 +1,7 @@
-<header class="container">
-    <div>
+<header class="header">
+    <!-- <div>
         <img src="./assets/images/illu/Logo.png" class="logo" alt="logo">
-    </div>
+    </div> -->
     <div class="nav">
 
         <div class="right">
