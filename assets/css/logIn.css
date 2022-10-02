@@ -137,7 +137,7 @@ form{
 
 
 
-h1{
+.formulaire_text h1{
     color: var(--grey);
     font-family:"RobotoBold";
     text-transform: uppercase;

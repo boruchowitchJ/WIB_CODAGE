@@ -11,7 +11,9 @@
 
     <div class="box_formLogOut">
         <div class="formLogOut">
-            <h1>CREATE ACCOUNT</h1>
+            <h1>CREATE YOUR ACCOUNT</h1>
+            <p>Before starting your adventure !</p>
+
 
             <form class="form_create" method="post" action="#">
 
@@ -32,6 +34,9 @@
                     <h1>Create</h1>
                     <input class="btn_create" id="btn_create" type="submit" value="">
                 </div>
+                <div class="LogInPage">
+                            <p>I have an account <a href="/WIB_CODAGE/">LogIn</a></p>
+                        </div>
             </form>
 
         </div>

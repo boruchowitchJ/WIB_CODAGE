@@ -137,13 +137,14 @@ padding-left: 51px;
     border: 3px solid var(--titre);
 
   }
-  h1{
+  
+  .formLogOut h1{
    font-family:"Roboto-bold"; 
    color: var(--text1);
-   font-size: 30px;
+   font-size: 2rem;
   }
 
-  .create h1{
+  .create_h1{
     margin-top: 5px;
     font-family:"Roboto-bold"; 
     color: var(--text1);
@@ -177,5 +178,16 @@ padding-left: 51px;
   .btn_create:hover{
     background-color:var(--text2);
   }
+
+  .LogInPage {
+    width: 261px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+   }
+.LogInPage p{
+    font-family: "RobotoThin";
+    color: var(--grey);
+}
 
  
