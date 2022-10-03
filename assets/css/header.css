@@ -1,14 +1,14 @@
 *{box-sizing: border-box;}
 :root{
-    
+
     --body:#E9E9E9;
     --titre:#707070;
     --text1:#7B7979;
     --text2:#FFA101;
     --formulaire: #D1D1D1;
     --bouton:#2F4F58;
-   
-    
+
+
 }
 .header{
     width: 100%;
@@ -18,31 +18,32 @@
     justify-content: space-between;
     background-color: var(--body);
     align-items: center;
-  
+
 
 }
 .logo_header{
-   
+
     position: relative;
     width: 10%;
     height: 112px;
     padding: 20px;
     margin-left: 35px;
-    
-        
-    }
-    
-    .img_logo{
-        width: 100%;
+
+
+}
+
+.img_logo{
+    width: 100%;
     height: 100%;
-    }
+}
+
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 487px;
- 
+
 }
 .right{
     display: flex;
@@ -50,7 +51,7 @@
     margin-right: 25px;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 .search{
     width: 211px;
@@ -68,10 +69,12 @@
 }
 
 .langue nav ul{
+    font-family: "RobotoBold";
+    color: var(--titre);
     display: flex;
     flex-direction: row;
     list-style: none;
-  
+
 
 }
 .nav input{
@@ -79,7 +82,7 @@
     height: 100%;
 
     border-radius: 20px;
-    border: #8fccdc 1px solid;
+    border: var(--titre) 1px solid;
 
 }
 
@@ -87,6 +90,5 @@
     margin-top: 10px;
     width: 10%;
     height: 40%;
-    
-}
 
+}

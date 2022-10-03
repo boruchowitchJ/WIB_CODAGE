@@ -31,17 +31,19 @@ article.texte{
 }
 
 article.texte h1{
+    text-transform: uppercase;
     font-family: "RobotoBold";
     color:var(--titre);
     font-size: 2rem;
-    margin-top: 230px;
-    margin-left: 95px;
+    margin-bottom: 1.5vw;
+    margin-top: 10vw;
+    margin-left: 5.2vw;
 }
 
 article.texte p{
     font-family: "RobotoThin";
     color:var(--titre);
     text-align: justify;
-    margin-left: 95px;
-    margin-right: 120px;
+    margin-left: 5.2vw;
+    margin-right: 10vw;
 }
