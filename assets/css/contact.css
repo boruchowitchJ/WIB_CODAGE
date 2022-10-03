@@ -1,0 +1,31 @@
+:root{
+
+    --body:#E9E9E9;
+    --titre:#707070;
+    --text1:#7B7979;
+    --text2:#FFA101;
+    --formulaire: #D1D1D1;
+    --bouton:#2F4F58;
+
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+aside.illustration{
+    position: relative;
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(../images/illu/logInFaces.png) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.texte {
+    display: flex;
+    flex-direction: row;
+}
