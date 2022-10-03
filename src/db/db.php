@@ -1,4 +1,6 @@
 <?php
+
+// connexion à la base de données
 $host = "remotemysql.com";
 $user = "qypIEJ70Uk";
 $db = "qypIEJ70Uk";

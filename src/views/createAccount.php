@@ -32,7 +32,7 @@
 
                 <div class="create">
                     <h1>Create</h1>
-                    <input class="btn_create" id="btn_create" type="submit" value="">
+                    <input class="btn_create" id="btn_create" type="submit" name="envoyer" value="">
                 </div>
                 <div class="LogInPage">
                             <p>I have an account <a href="/WIB_CODAGE/">LogIn</a></p>
