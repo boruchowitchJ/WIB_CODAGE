@@ -10,7 +10,7 @@
 
 }
 
-.about {
+section.about{
     display: flex;
     flex-direction: row;
 }
@@ -25,7 +25,23 @@ aside.illustration{
     background-repeat: no-repeat;
 }
 
-.texte {
-    display: flex;
-    flex-direction: row;
+article.texte{
+    width: 50%;
+    max-height: 100vh;
+}
+
+article.texte h1{
+    font-family: "RobotoBold";
+    color:var(--titre);
+    font-size: 2rem;
+    margin-top: 230px;
+    margin-left: 95px;
+}
+
+article.texte p{
+    font-family: "RobotoThin";
+    color:var(--titre);
+    text-align: justify;
+    margin-left: 95px;
+    margin-right: 120px;
 }
