@@ -36,6 +36,7 @@ $isFound = false; //connu
             if($result){
                 $isFound = true;
                 $name = $result[0]['name'];
+                $_SESSION['name']=$name;
                 $_SESSION['message'] = "Bienvenue  !($name)";
             }
 
