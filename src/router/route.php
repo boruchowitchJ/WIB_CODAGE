@@ -11,6 +11,7 @@ if (isset($_GET["page"]))
     if ($get["page"] == "createAccount")
     {
         include "./src/controller/create.php";
+        
     }
     else if ($get["page"] == "carte")
     {
@@ -20,6 +21,7 @@ if (isset($_GET["page"]))
         if(isset($get["poi"]))
         {
             include "./src/controller/carteSlide.php";
+            
         }
     }
     else if($get["page"] == "contact")

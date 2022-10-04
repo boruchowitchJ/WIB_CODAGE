@@ -12,7 +12,7 @@
             <div class="formulaire_container">
                 <div class="formulaire">
 
-                    <form method="post" action="../controller/LogIn.php">
+                    <form method="post" action="#">
                         <div class="formulaire_text">
                             <h1>welcome</h1>
                             <p>Sign in to your account</p>
@@ -21,7 +21,7 @@
                        <div class="inputData">
                         
                        <div class="inputGroup">
-                            <input class="inputbox" type="text" name="username" id="user" placeholder="Name">
+                            <input class="inputbox" type="text" name="email" id="email" placeholder="Name">
                         </div>
 
 
