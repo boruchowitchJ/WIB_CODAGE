@@ -14,6 +14,7 @@ $isFound = false; //connu
 
             $email = $_POST['email'];
             $pass_word = $_POST['pswd'];
+            $name = $_POST['name'];
 
             $sqlQuery = "
                 SELECT *
@@ -34,9 +35,9 @@ $isFound = false; //connu
 
             if($result){
                 $isFound = true;
-                $_SESSION['name'] = $result[0]['name'];
-                $_SESSION['email'] = $result[0]['email'];
-                $_SESSION['message'] = "Bienvenue  ! $connectedUser ($email)";
+                $name = $result[0]['name'];
+                $_SESSION['name']=$name;
+                $_SESSION['message'] = "Bienvenue  !($name)";
             }
 
         }
@@ -47,10 +48,7 @@ $isFound = false; //connu
             //echo "Bienvenue  ! $connectedUser ($email)";
             //redirection
             header('location:http://localhost/WIB_CODAGE?page=carte');
-        }else {
-
         }
-
 
     include "./src/views/login.php";
 
