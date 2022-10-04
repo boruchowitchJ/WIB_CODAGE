@@ -44,12 +44,13 @@ $isFound = false; //connu
         //     include "./src/controller/header.php";
         // include "./src/controller/carte.php";
             echo "Bienvenue  ! $connectedUser ($email)";
-        }else {
+        }
+        else {
 
 
             
-            echo "error!";
-        }
+        //     echo "error!";
+        // }
 
 
     include "./src/views/login.php";
