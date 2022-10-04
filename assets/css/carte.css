@@ -19,19 +19,23 @@ body{
     margin-top: -121px;
     margin-left: 350px;
     background-color: var(--body);   
+
+    position: relative;
    
 
 
 }
 .container_picto{ 
-    width: 900px;
-    height:900px;   
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto); 
-    margin-top: -121px;
-    margin-left: 350px;
+    width: 100%;
+    height:100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container_picto img {
+    width: 35px;
+    height:35px;
 }
 .carte{  
     width: 100%; 
@@ -42,11 +46,11 @@ body{
 
 
  .picto_Atom{
-    width: 35px;
-    height:35px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
    
 }
 .picto_Basi{   
-    width: 35px;
-    height:35px;
+    
 } 
