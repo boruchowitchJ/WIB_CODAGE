@@ -45,10 +45,10 @@ if (isset($_GET["page"]))
 
         }
     }
-    else if($get["page"] == "contact")
+    else if($get["page"] == "about_us")
     {
         include "./src/controller/header.php";
-        include "./src/controller/contact.php";
+        include "./src/controller/about_us.php";
     }
 
     else if($get["page"] == "login")
