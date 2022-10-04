@@ -13,7 +13,7 @@ if(isset($_POST['envoyer']))
 
     // $sql = ("INSERT INTO `user`( `name`, `mail`, `password`, `confirmPassword`) VALUES (:nom, :mail, :pwd, :confpwd)");
 
-    $sql = "INSERT INTO `user` ( `name`, `mail`, `password`, `confirmPassword`)
+    $sql = "INSERT INTO `user` ( `name`, `email`, `password`, `confirmPassword`)
     VALUES( '$nom','$mail','$pwd','$confpwd')";
 
 $stmt = $mysqlClient-> prepare($sql);
@@ -32,9 +32,9 @@ $stmt->execute();
 //     $pwd =$_POST['password'];
 //     $confpwd =$_POST['confirmPwd'];
 
-//     //Requete d'insersion dans la DB//
+    //Requete d'insersion dans la DB//
 
-//     // $sql = ("INSERT INTO `user`( `name`, `mail`, `password`, `confirmPassword`) VALUES (:nom, :mail, :pwd, :confpwd)");
+    // $sql = ("INSERT INTO `user`( `name`, `mail`, `password`, `confirmPassword`) VALUES (:nom, :mail, :pwd, :confpwd)");
 
 //     $sql = "INSERT INTO `user` ( `name`, `email`, `password`, `confirmPassword`)
 //     VALUES( '$nom','$email','$pwd','$confpwd')";
@@ -42,7 +42,7 @@ $stmt->execute();
 // $stmt = $mysqlClient-> prepare($sql);
 // $stmt->execute();
 
-// //header ...
+//header ...
 // }
 
 

@@ -1,5 +1,6 @@
 <?php
 
+// ouverture de session
 if(!isset($_SESSION))
 {
     session_start();
@@ -56,6 +57,10 @@ if (isset($_GET["page"]))
     {
         include "./src/controller/LogIn.php";
     }
+
+    else if($get["page"] == "allSpots")
+        include "./src/controller/header.php";
+        include "./src/controller/allSpots.php";
 }
 else
 {
