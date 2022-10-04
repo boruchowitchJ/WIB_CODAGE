@@ -15,11 +15,13 @@ include './src/db/db.php';
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/create.css">
     <link rel="stylesheet" href="./assets/css/logIn.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 
-    
+
+
+
 
 
     <title>Walk in Brussels</title>

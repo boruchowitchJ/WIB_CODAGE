@@ -19,24 +19,24 @@
                         </div>
 
                        <div class="inputData">
-                        
+
                        <div class="inputGroup">
                             <input class="inputbox" type="text" name="email" id="email" placeholder="Name">
                         </div>
 
 
                         <div class="inputGroup">
-                            <input class="inputbox" type="password" name="password" id="pswd" placeholder="password">
-                            
+                            <input class="inputbox" type="password" name="pswd" id="pswd" placeholder="password">
+
                         </div>
                         <h4>forgot your password ?</h4>
                        </div>
-                        
+
 
                         <!------- Bouton-------->
                         <div class="sign_in">
                             <h2>Log in</h2>
-                            <input class="btn_log" type="submit" value="">
+                            <input class="btn_log" type="submit" name="connexion" value="">
                         </div>
                         <div class="createAccount">
                             <p>Don't have an account ?<a href="?page=createAccount">Create</a></p>
