@@ -1,0 +1,42 @@
+.parent {
+    max-width: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    border: 1px solid black;
+}
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    border: 1px solid black;
+}
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    border: 1px solid black;
+}
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+    border: 1px solid black;
+ }
+.div5 {
+    grid-area: 2 / 1 / 3 / 2;
+    border: 1px solid black;
+}
+.div6 {
+    grid-area: 2 / 2 / 3 / 3;
+    border: 1px solid black;
+}
+.div7 {
+    grid-area: 2 / 3 / 3 / 4;
+    border: 1px solid black;
+}
+.div8 {
+    grid-area: 2 / 4 / 3 / 5;
+    border: 1px solid black;
+}
