@@ -48,8 +48,6 @@ $isFound = false; //connu
             //echo "Bienvenue  ! $connectedUser ($email)";
             //redirection
             header('location:http://localhost/WIB_CODAGE?page=carte');
-        }else {
-
         }
 
     include "./src/views/login.php";
