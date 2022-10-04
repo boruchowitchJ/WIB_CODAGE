@@ -12,8 +12,7 @@ include './src/db/db.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/carte.css">
-    <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/carte.css"> 
     <link rel="stylesheet" href="./assets/css/create.css">
     <link rel="stylesheet" href="./assets/css/logIn.css">
     <link rel="stylesheet" href="./assets/css/style.css">

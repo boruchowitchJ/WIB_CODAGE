@@ -8,7 +8,7 @@
 
 <div><a class="picto_Atom lien"  data-place="atomium"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a class="picto_basil  lien"  data-place="basilique"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
+<div><a class="picto_basil lien"  data-place="basilique"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
 <!-- 
 <div><a href="?page=carte&poi=palaisRoyal"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
