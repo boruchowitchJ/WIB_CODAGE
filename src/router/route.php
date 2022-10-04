@@ -5,6 +5,7 @@ if(!isset($_SESSION))
     session_start();
 }
 
+// Nous permets d'afficher notre message dans un toastr
 
 if(isset($_SESSION['message'])) {
 ?>
@@ -47,7 +48,7 @@ if (isset($_GET["page"]))
     }
     else if($get["page"] == "about_us")
     {
-        include "./src/controller/header.php";
+
         include "./src/controller/about_us.php";
     }
 
