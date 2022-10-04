@@ -20,7 +20,9 @@
         const currentEvent = pois.find(p => p.nom == e.currentTarget.getAttribute('data-place'));
         $('#img').attr('src', currentEvent.img)
         
-    })console.log(currentEvent);
+    }); 
+    console.log(pois);
+    console.log(currentEvent);
 </script>
 
 

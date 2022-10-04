@@ -19,7 +19,7 @@ if(isset($_SESSION['message'])) {
 
 
 
-/*est-ce-que dans l'url ->tu as a un moment quand tu page ici (donc à chaque fois que la page est chargée...)
+/*est-ce-que dans l'url ->tu as a un moment quand tu passe ici (donc à chaque fois que la page est chargée...)
  ?page=quelquechose */
 
  if(!isset($_SESSION['name']) && $_GET["page"] != "login" && $_GET["page"] != "createAccount") {
