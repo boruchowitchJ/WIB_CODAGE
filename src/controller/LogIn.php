@@ -14,6 +14,7 @@ $isFound = false; //connu
 
             $email = $_POST['email'];
             $pass_word = $_POST['pswd'];
+            $name = $_POST['name'];
 
             $sqlQuery = "
                 SELECT *
@@ -34,9 +35,8 @@ $isFound = false; //connu
 
             if($result){
                 $isFound = true;
-                $_SESSION['name'] = $result[0]['name'];
-                $_SESSION['email'] = $result[0]['email'];
-                $_SESSION['message'] = "Bienvenue  ! $connectedUser ($email)";
+                $name = $result[0]['name'];
+                $_SESSION['message'] = "Bienvenue  !($name)";
             }
 
         }
