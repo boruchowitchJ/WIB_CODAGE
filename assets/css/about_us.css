@@ -35,30 +35,31 @@ aside.illustration{
     flex-direction: column;
 }
 
-/* article.texte{
-    width: 50%;
-    max-height: 100vh;
+.aboutText {
+    width: 65%;
+    min-height: 52vh;
     display: flex;
     flex-direction: column;
+    align-items: self-end;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 9vw;
 }
 
-article.texte h1{
+.aboutText h1{
     text-transform: uppercase;
     font-family: "RobotoBold";
     color:var(--titre);
     font-size: 2rem;
-    margin-bottom: 1.5vw;
-    margin-top: 10vw;
-    margin-left: 5.2vw;
 }
 
-article.texte p{
+.aboutText p{
     font-family: "RobotoThin";
     color:var(--titre);
     text-align: justify;
-    margin-left: 5.2vw;
-    margin-right: 10vw;
-} */
+}
+
 .navAboutUs{
     display: flex;
 flex-direction: row;
@@ -94,13 +95,7 @@ margin-top: 15px;
     margin-right: 25px;
     align-items: center;
 }
-.AboutH1{
-    font-family:"RobotoBold";
-    font-size: 1rem;
-    color: var(--titre);
-    text-transform: uppercase;
-    margin-right: 20px;
-}
+
 .langue.navAboutUs ul{
     font-family: "RobotoBold";
     color: var(--titre);

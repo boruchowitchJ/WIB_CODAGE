@@ -1,5 +1,6 @@
 <?php
 
+// ouverture de session
 if(!isset($_SESSION))
 {
     session_start();

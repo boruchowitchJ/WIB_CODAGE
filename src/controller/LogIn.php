@@ -49,9 +49,6 @@ $isFound = false; //connu
             header('location:http://localhost/WIB_CODAGE?page=carte');
         }else {
 
-
-
-            echo "error!";
         }
 
 
