@@ -15,7 +15,7 @@
             <p>Before starting your adventure !</p>
 
 
-            <form class="form_create" method="POST" action="?page=carte">
+            <form class="form_create" method="POST" action="?page=createAccount">
 
 
                 <input class="inputboite" id="inputName" type="text" name="name" placeholder="Name">

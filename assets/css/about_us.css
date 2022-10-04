@@ -1,0 +1,122 @@
+:root{
+
+    --body:#E9E9E9;
+    --titre:#707070;
+    --text1:#7B7979;
+    --text2:#FFA101;
+    --formulaire: #D1D1D1;
+    --bouton:#2F4F58;
+
+
+}
+
+section.about{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    height: 100vh;
+}
+
+aside.illustration{
+
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(../images/illu/logInFaces.png) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.boxAboutUs{
+
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutText {
+    width: 65%;
+    min-height: 52vh;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 9vw;
+}
+
+.aboutText h1{
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+    color:var(--titre);
+    font-size: 2rem;
+}
+
+.aboutText p{
+    font-family: "RobotoThin";
+    color:var(--titre);
+    text-align: justify;
+}
+
+.navAboutUs{
+    display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+width: 55%;
+height: 74px;
+align-self: flex-end;
+margin-top: 15px;
+
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.search{
+    width: 211px;
+    display: flex;
+    flex-direction: column;
+    height: 36px;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+.langue{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    align-items: center;
+}
+
+.langue.navAboutUs ul{
+    font-family: "RobotoBold";
+    color: var(--titre);
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+
+}
+.navAboutUs input{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+    border: var(--titre) 1px solid;
+
+}
+
+.burger{
+    margin-top: 10px;
+    width: 10%;
+    height: 40%;
+
+}
