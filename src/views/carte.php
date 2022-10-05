@@ -6,31 +6,30 @@
 <!-- pour que les picto ouvre les slides. -->
 <div class="container_picto">
 
-<div><a class="picto_Atom lien"  data-place="atomium"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
+<div><a class=" lien picto_atomium"  data-place="atomium"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a class="picto_basil lien"  data-place="basilique"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
+<div><a class=" lien picto_basilique"  data-place="basilique"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<!-- 
-<div><a href="?page=carte&poi=palaisRoyal"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_palaisRoyal"  data-place="palaisRoyal"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=parcRoyal"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_parcRoyal"  data-place="parcRoyal"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=palaisJustice"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_palaisJustice"  data-place="palaisJustice"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=bourse"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_bourse"  data-place="bourse"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=grandPlace"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_grandPlace"  data-place="grandPlace"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=mannequepis"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_mannequepis"  data-place="mannequepis"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=cinquentenaire"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_cinquentenaire"  data-place="cinquentenaire"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=tourJaponaise"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_tourJaponaise"  data-place="tourJaponaise"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=afrique"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
+<div><a class=" lien picto_afrique"  data-place="afrique"><img src="./assets/images/illu/basilique-01.png" alt="Picto"></a> 
 </div>
-<div><a href="?page=carte&poi=montDesArts"><img src="./assets/images/illu/basilique-01.png" class="picto_Atom" alt="Picto"></a> 
-</div> -->
+<div><a class=" lien picto_montDesArts"  data-place="montDesArts"><img src="./assets/images/illu/basilique-01.png"  alt="Picto"></a> 
+</div>
 
 </div>
 

@@ -45,12 +45,71 @@ body{
 }
 
 
- .picto_Atom{
+ .picto_atomium{
     position: absolute;
-    left: 450px;
+    left: 400px;
     top: 100px;
    
 }
-.picto_Basi{   
+.picto_basilique{ 
+    position: absolute;
+    left: 256px;
+    top: 250px;
+    
+} 
+.picto_palaisRoyal{
+    position: absolute;
+    left: 446px;
+    top: 133px;
+}
+.picto_parcRoyal{
+    position: absolute;
+    left: 431px;
+     top: 389px
+}
+.picto_palaisJustice{
+    position: absolute;
+    left: 387px;
+    top: 433px;
+}
+.picto_bourse{ 
+    position: absolute;
+    left: 382px;
+top: 374px;
+    
+} 
+.picto_grandPlace{ 
+    position: absolute;
+    left: 394px;
+    top: 360px;
+    
+} 
+.picto_mannequepis{ 
+    position: absolute;
+    left: 403px;
+    top: 365px;
+    
+} 
+.picto_cinquentenaire{ 
+    position: absolute;
+    left: 200px; 
+    top:200px 
+    
+}
+.picto_tourJaponaise{ 
+    position: absolute;
+    left: 441px;
+     top: 124px;
+} 
+.picto_afrique{ 
+    position: absolute;
+    left: 200px; 
+    top:200px 
+    
+} 
+.picto_montDesArts{ 
+    position: absolute;
+    left: 431px;
+     top: 389px
     
 } 
