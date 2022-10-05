@@ -45,71 +45,131 @@ body{
 }
 
 
- .picto_atomium{
+.picto_atomium{
     position: absolute;
     left: 400px;
     top: 100px;
+    transition: transform .2s;
+
    
 }
+.picto_atomium:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_basilique{ 
     position: absolute;
     left: 256px;
     top: 250px;
+    transition: transform .2s;
     
 } 
+
+.picto_basilique:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_palaisRoyal{
     position: absolute;
     left: 446px;
     top: 133px;
+    transition: transform .2s;
 }
+
+.picto_palaisRoyal:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_parcRoyal{
     position: absolute;
     left: 431px;
-     top: 389px
+     top: 389px;
+     transition: transform .2s;
 }
+
+.picto_parcRoyal:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_palaisJustice{
     position: absolute;
     left: 387px;
     top: 433px;
+    transition: transform .2s;
 }
+.picto_palaisJustice:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_bourse{ 
     position: absolute;
     left: 382px;
 top: 374px;
-    
+transition: transform .2s;
 } 
+.picto_bourse:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_grandPlace{ 
     position: absolute;
     left: 394px;
     top: 360px;
+    transition: transform .2s;
     
 } 
+.picto_grandPlace:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_mannequepis{ 
     position: absolute;
     left: 403px;
     top: 365px;
-    
+    transition: transform .2s;
 } 
+.picto_mannequepis:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 .picto_cinquentenaire{ 
     position: absolute;
     left: 200px; 
-    top:200px 
+    top:200px ;
+    transition: transform .2s;
     
 }
+.picto_cinquentenaire:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .picto_tourJaponaise{ 
     position: absolute;
     left: 441px;
      top: 124px;
+     transition: transform .2s;
 } 
+.picto_tourJaponaise:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 .picto_afrique{ 
     position: absolute;
     left: 200px; 
-    top:200px 
+    top:200px;
+    transition: transform .2s;
     
 } 
+.picto_afrique:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 .picto_montDesArts{ 
     position: absolute;
     left: 431px;
-     top: 389px
+     top: 389px;
+     transition: transform .2s;
     
 } 
+.picto_montDesArts:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
