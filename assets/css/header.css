@@ -92,3 +92,16 @@
     height: 40%;
 
 }
+#recherche{
+    background-image: url(../images/illu/search.png);
+    background-position: 13px 6px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    padding-left: 51px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: var(--text2) 2px solid;
+
+
+}
