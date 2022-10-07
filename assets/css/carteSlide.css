@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf)
+  }
+
+
+.boxSlider{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 470px;
+    height: 100%;
+    background: #31525B;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* transition: transform .8s cubic-bezier(.25,.74,.22,.99);  */
+}
+
+.HeaderBoxSlider{
+    margin: 10px;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 28px;
+    padding-left: 28px;
+}
+.CloseBox{
+    margin-top: 8px;
+    width:53px;
+    height:100%;
+}
+.SearchSlider{
+    width: 216px;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    margin-left: 58px;
+    justify-content: space-between;
+
+}
+#rechercheSlide{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: var(--text2) 2px solid;
+
+}
+.BoxImagePOI{
+    height: 250px;
+    margin-top: 11px;
+    
+}
+.imagePOI{
+    min-width: 100%;
+    height: 100%;
+}
+
+.container-aside{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 22px;
+    margin-right: 22px;
+
+    
+}
+.titlePOI{
+    width: 201px;
+    height: 32px;
+    color: white;
+    font-family: "Montserrat-Regular";
+    font-size: 2rem;
+
+}
+.DescPOI{
+    width: 90%;
+    height: 48%;
+    color: white;
+}
+.UrlPOI{
+    width: 160px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+}
+.imgURL{
+    width:36px;
+    height:30px;
+}
+.UrlPOI>h3{
+    color:var(--text2);
+    font-family: "Montserrat-Regular";
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
