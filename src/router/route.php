@@ -59,7 +59,6 @@ if (isset($_GET["page"]))
     }
 
     else if($get["page"] == "allSpots")
-        include "./src/controller/header.php";
         include "./src/controller/allSpots.php";
 }
 else
