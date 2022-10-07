@@ -30,19 +30,30 @@
 }
 .CloseBox{
     margin-top: 8px;
-    width:53px;
-    height:100%;
+    width: 30px;
+    height: 55%;
 }
+.CloseBox:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 .SearchSlider{
     width: 216px;
     display: flex;
     flex-direction: column;
     height: 40px;
-    margin-left: 58px;
+    margin-left: 66px;
     justify-content: space-between;
 
 }
+
 #rechercheSlide{
+    background-image: url(../images/illu/search.png);
+    background-position: 13px 6px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    padding-left: 51px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -84,15 +95,19 @@
     color: white;
 }
 .UrlPOI{
-    width: 160px;
+    width: 148px;
     height: 42px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;  
 }
+.UrlPOI:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .imgURL{
-    width:36px;
-    height:30px;
+    width: 25px;
+height: 27px;
 }
 .UrlPOI>h3{
     color:var(--text2);
