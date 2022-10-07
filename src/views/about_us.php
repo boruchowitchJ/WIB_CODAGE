@@ -22,7 +22,9 @@
                         </nav>
 
                     </div>
-                    <div class="menu-wrap">
+                
+                </div>
+                <div class="menu-wrap">
         <input type="checkbox" class="toggler">
         <div class="hamburger"><div></div></div>
         <div class="menu">
@@ -38,7 +40,6 @@
             </div>
         </div>
     </div>
-                </div>
             </div>
 
             <div class="aboutText">
