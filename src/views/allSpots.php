@@ -4,7 +4,6 @@
 <img class="img_logo" src="./assets/images/illu/Logo.png">
 
 
-
 </div>
     <div class="nav">
 
