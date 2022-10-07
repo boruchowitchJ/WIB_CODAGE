@@ -1,5 +1,5 @@
-<header class="header">
-<div class="logo_header">
+<!-- <header class="header"> -->
+<!-- <div class="logo_header">
 
 <img class="img_logo" src="./assets/images/illu/Logo.png">
 
@@ -21,10 +21,8 @@
                         <li> EN |</li>
                     </ul>
                 </nav>
-            </div>
-            <img src="./assets/images/illu/burger_menu.png" class="burger" alt="">
-        </div>
-    </div>
+           
+    </div> -->
 
 </header>
 <div class="grid-container">
