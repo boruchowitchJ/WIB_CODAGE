@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-body{
-    background-color: darkseagreen;
-}
+
 .grid-container{
     max-width: 1200px;
     width: 80%;
