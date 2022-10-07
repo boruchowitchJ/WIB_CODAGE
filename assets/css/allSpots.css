@@ -127,7 +127,7 @@
     max-width: 1200px;
     width: 80%;
     max-height: 100vh;
-    margin: 30px auto;
+    margin: 30px auto; /* Permet d'avoir ma grid bien centré*/
     display: grid;
     grid-template-columns: repeat(3, 300px);
     row-gap: 2rem;
