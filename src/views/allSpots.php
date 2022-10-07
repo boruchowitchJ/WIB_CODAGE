@@ -32,7 +32,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="" class="card-img" />
+                    <img src="./assets/images/place/mannekenPis.jpg" alt="" class="card-img" />
                 </div>
             </div>
         </div>
