@@ -1,5 +1,5 @@
 <div class="navAboutUs">
-
+    
     <div class="right">
         <div class="search">
             <label for="recherche"></label>
