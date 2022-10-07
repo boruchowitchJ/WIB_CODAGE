@@ -32,7 +32,8 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="" class="card-img" />
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
                 </div>
             </div>
         </div>
