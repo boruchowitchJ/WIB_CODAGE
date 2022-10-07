@@ -16,7 +16,7 @@
                         <li> EN |</li>
                     </ul>
                 </nav>
-                <div class="menu-wrap">
+                <div class="menu-wrap-nav">
                     <input type="checkbox" class="toggler">
                     <div class="hamburger">
                         <div></div>
