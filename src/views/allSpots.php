@@ -38,9 +38,54 @@
             </div>
         </div>
     </div>
-    <div class="grid-items"></div>
-    <div class="grid-items"></div>
-    <div class="grid-items"></div>
-    <div class="grid-items"></div>
-    <div class="grid-items"></div>
+    <div class="grid-items">
+    <div class="card">
+            <div class="image-content">
+                <div class="card-image">
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-items">
+    <div class="card">
+            <div class="image-content">
+                <div class="card-image">
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-items">
+    <div class="card">
+            <div class="image-content">
+                <div class="card-image">
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-items">
+    <div class="card">
+            <div class="image-content">
+                <div class="card-image">
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-items">
+    <div class="card">
+            <div class="image-content">
+                <div class="card-image">
+                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <h3 class="place">Atomium</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
