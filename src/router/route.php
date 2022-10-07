@@ -59,9 +59,16 @@ if (isset($_GET["page"]))
         include "./src/controller/LogIn.php";
     }
 
-    else if($get["page"] == "allSpots")
+    else if($get["page"] == "contact")
+    {
+        include "./src/controller/nav.php";
+        include "./src/controller/header.php";
+        include "./src/controller/contact.php";
+    }
+
+    else if($get["page"] == "allSpots"){
         include "./src/controller/allSpots.php";
-}
+}}
 else
 {
     include "./src/controller/LogIn.php";

@@ -57,6 +57,18 @@ aside.illustration{
     background-repeat: no-repeat;
 }
 
+aside.illustration_contact{
+    width: 50%;
+    position: relative;
+    top: -150px;
+    min-height: 100vh;
+    
+
+}
+div.fond_contact{
+    background-color: var(--bouton);
+}
+
 .boxAboutUs{
 
     width: 50%;
