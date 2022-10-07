@@ -21,6 +21,7 @@ $isFound = false; //connu
                 FROM user
                 WHERE email = :param_email AND password = :param_password
             ";
+//bindParam  contient  des marqueurs //exemple// :param_email...
 
             $statement = $mysqlClient->prepare($sqlQuery);
             $statement->execute(array("param_email" => $email, "param_password" => $pass_word));
@@ -30,7 +31,7 @@ $isFound = false; //connu
 
 
 
-
+//recuperer le résultat de la requette
             $result = $statement->fetchAll();
 
             if($result){
