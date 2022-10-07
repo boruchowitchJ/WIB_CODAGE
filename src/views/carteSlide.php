@@ -7,7 +7,8 @@
             <div class="SearchSlider">
            
                 <label for="rechercheSlide"></label>
-                 <input id="rechercheSlide" type="search" placeholder="   Search">
+                
+                 <input id="rechercheSlide" type="search" placeholder="Search">
            
             </div>
             <img class="CloseBox" src="./assets/images/illu/close.png">
