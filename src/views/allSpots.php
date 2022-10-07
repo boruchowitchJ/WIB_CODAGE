@@ -1,3 +1,4 @@
+<!-- Zone header -->
 <header class="header">
     <div class="logo_header">
         <img class="img_logo" src="./assets/images/illu/Logo.png">
@@ -37,10 +38,12 @@
             </div>
         </div>
 </header>
+<!-- Zone titre -->
 <div class="title-spots">
     <h1 class="text-spots">All spots</h1>
     <div class="divider"></div>
 </div>
+<!-- Zone galerie -->
 <div class="grid-container">
     <div class="grid-items">
         <div class="card">
@@ -56,7 +59,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <img src="./assets/images/place/basilique.jpg" alt="basilique" class="card-img" />
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
@@ -66,7 +69,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <img src="./assets/images/place/ChâteauRoyalLaeken.jpg" alt="château" class="card-img" />
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
@@ -76,7 +79,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <img src="./assets/images/place/grandPlace.jpg" alt="grandPlace" class="card-img" />
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
@@ -86,7 +89,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <img src="./assets/images/place/mannekenPis.jpg" alt="mannekenPis" class="card-img" />
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
@@ -96,7 +99,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <img src="./assets/images/place/montDesArts.jpg" alt="montDesArts" class="card-img" />
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
