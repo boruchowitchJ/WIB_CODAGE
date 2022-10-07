@@ -38,6 +38,8 @@ if (isset($_GET["page"]))
     }
     else if ($get["page"] == "carte")
     {
+
+        include "./src/controller/nav.php";
         include "./src/controller/header.php";
         include "./src/controller/carte.php";
 
@@ -47,9 +49,8 @@ if (isset($_GET["page"]))
 
         }
     }
-    else if($get["page"] == "about_us")
-    {
-
+    else if($get["page"] == "about_us")    {
+             
         include "./src/controller/about_us.php";
     }
 
@@ -59,6 +60,8 @@ if (isset($_GET["page"]))
     }
 
     else if($get["page"] == "allSpots")
+        include "./src/controller/nav.php";        
+        include "./src/controller/header.php";
         include "./src/controller/allSpots.php";
 }
 else

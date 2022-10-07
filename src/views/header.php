@@ -22,9 +22,8 @@
                         <li> EN |</li>
                     </ul>
                 </nav>
-            </div>
-            <img src="./assets/images/illu/burger_menu.png" class="burger" alt="">
-        </div>
+            
+    </div>
     </div>
 
 </header>
