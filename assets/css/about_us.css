@@ -66,6 +66,8 @@ aside.illustration_contact{
 
 }
 div.fond_contact{
+
+    width: 100%;
     background-color: var(--bouton);
 }
 

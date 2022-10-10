@@ -1,5 +1,6 @@
 <div class="container_carte">
-    <img src="./assets\images\background\Carte-bruxelles1.png" class='carte' alt="carte">    
+    <a href="?page=home"><img src="./assets\images\background\Carte-bruxelles1.png" class='carte' alt="carte">  </a>
+      
    
 
 

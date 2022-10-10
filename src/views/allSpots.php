@@ -26,7 +26,7 @@
                         <div>
                             <div>
                                 <ul>
-                                    <li><a href="?page=carte">ACCEUIL</a></li>
+                                    <li><a href="?page=carte">HOME</a></li>
                                     <li><a href="?page=about_us">ABOUT US</a></li>
                                     <li><a href="?page=allSpots">ALL SPOTS</a></li>
                                     <li><a href="?page=contact">CONTACT</a></li>
@@ -49,7 +49,7 @@
         <div class="card">
             <div class="image-content">
                 <div class="card-image">
-                    <img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" />
+                    <a href="?page=carte&poi==atomium"><img src="./assets/images/place/atomium.jpg" alt="atomium" class="card-img" /></a>
                     <h3 class="place">Atomium</h3>
                 </div>
             </div>
