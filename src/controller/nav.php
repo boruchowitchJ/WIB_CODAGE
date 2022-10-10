@@ -1,5 +1,5 @@
 <?php
 
 
-include "./src/views/nav.php";
+include "./src/views/Nav.php";
 ?>

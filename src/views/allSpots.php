@@ -29,7 +29,7 @@
                                     <li><a href="?page=carte">ACCEUIL</a></li>
                                     <li><a href="?page=about_us">ABOUT US</a></li>
                                     <li><a href="?page=allSpots">ALL SPOTS</a></li>
-                                    <li><a href="#">CONTACT</a></li>
+                                    <li><a href="?page=contact">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>

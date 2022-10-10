@@ -5,7 +5,7 @@
             <div>
                 <div>
                     <ul>
-                        <li><a href="?page=carte">ACCEUIL</a></li>
+                        <li><a href="?page=carte">HOME</a></li>
                         <li><a href="?page=about_us">ABOUT US</a></li>
                         <li><a href="?page=allSpots">ALL SPOTS</a></li>
                         <li><a href="?page=contact">CONTACT</a></li>
