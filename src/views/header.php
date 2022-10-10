@@ -1,7 +1,7 @@
 <header class="header">
 <div class="logo_header">
+<a href="?page=carte"><img class="img_logo" src="./assets/images/illu/Logo.png"></a>
 
-<img class="img_logo" src="./assets/images/illu/Logo.png">
 
 
 

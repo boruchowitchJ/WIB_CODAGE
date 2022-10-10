@@ -1,7 +1,7 @@
 <!-- Zone header -->
 <header class="header">
     <div class="logo_header">
-        <img class="img_logo" src="./assets/images/illu/Logo.png">
+       <a href="?page=carte"><img class="img_logo" src="./assets/images/illu/Logo.png"></a> 
     </div>
     <div class="nav">
         <div class="right">
