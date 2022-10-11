@@ -66,6 +66,10 @@ aside.illustration_contact{
 
 }
 div.fond_contact{
+    width: 50%;
+    position: relative;
+    top: -150px;
+    min-height: 100vh;
     background-color: var(--bouton);
 }
 
